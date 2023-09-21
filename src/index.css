@@ -73,11 +73,6 @@ body p {
 }
 
 /* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
-    
-  }
-
   /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
     width: 6px;
