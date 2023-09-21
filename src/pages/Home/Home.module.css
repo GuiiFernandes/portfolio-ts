@@ -1,0 +1,116 @@
+.home {
+  justify-content: center;
+  align-items: center;
+}
+
+.infos-container {
+  width: 75%;
+  max-width: var(--max-width);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.photo-home {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.office {
+  color: var(--dark-green);
+}
+
+.typed-cursor {
+  color: var(--dark-green);
+}
+
+.btn-exercises {
+  width: 100%;
+}
+
+.home-button {
+  margin: 1rem 0;
+  appearance: none;
+  background-color: transparent;
+  border: 0.125rem solid var(--white);
+  color: var(--light-green);
+  background-color: var(--dark-gray);
+  border-radius: 0.9375rem;
+  cursor: pointer;
+  min-width: 14.8rem;
+  width: 100%;
+  font-weight: bold;
+  font-size: 2rem;
+  outline: none;
+  padding: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.home-button:disabled {
+  pointer-events: none;
+}
+
+.home-button:hover {
+  color: var(--black);
+  background-color: var(--dark-green);
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.home-button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.btn-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+main p {
+  text-align: center;
+  font-size: 3rem;
+  width: 100%;
+}
+
+.cartoon {
+  display: none;
+}
+
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icon-link {
+  margin: 1rem;
+  color: var(--white);
+}
+
+.icon {
+  font-size: 4.5rem;
+  color: var(--white);
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  transition: scale 0.2s ease-in;
+  color: var(--dark-green);
+}
+
+@media ( min-width : 640px ) {
+  .cartoon {
+    display: block;
+  }
+}

@@ -1,0 +1,32 @@
+.project-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 0.2rem solid var(--dark-green);
+  border-radius: 2rem;
+  max-width: 40rem;
+}
+
+.project-card a {
+  color: var(--light-green);
+}
+
+.project-card > p {
+  font-size: 1.6rem;
+  text-align: justify;
+}
+
+.project-card > img {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+
+.card-title {
+  padding: 2rem 0.8rem;
+}
+
+.card-description {
+  padding: 2rem;
+}
+

@@ -1,0 +1,93 @@
+:root {
+  --dark-green: #b6dec5;
+  --light-green: #daedce;
+  --black: #230b00;
+  --white: #e6e6e6;
+  --dark-gray: #323232;
+  --gray: #585858;
+  --light-gray: #a0a0a0;
+  --ubuntu: "Ubuntu";
+  --max-width: 1400px;
+  --online-green: #417B5A;
+  --offline-red: #C1292E;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: auto;
+  scrollbar-color: var(--dark-green);
+}
+
+html {
+  font-size: 62.5%;
+  font-family: var(--ubuntu), sans-serif;
+}
+
+body {
+  font-size: 2rem;
+  color: var(--white);
+}
+
+body > div {
+  height: 100vh;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  display: inline;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+body p {
+  margin: 0;
+}
+
+.background-image {
+  background-image: url(./image/background.svg);
+}
+
+.background-color {
+  background-color: var(--dark-gray);
+}
+
+.page {
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh;
+  margin: auto;
+  gap: 2rem;
+  padding: 5rem 0;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--dark-green);
+    border-radius: 6px;
+  }

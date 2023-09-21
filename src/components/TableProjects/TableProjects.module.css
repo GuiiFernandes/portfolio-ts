@@ -1,0 +1,59 @@
+
+
+tr > td > a {
+  color: var(--dark-green);
+}
+
+table {
+  width: 100%;
+  border: 1px solid var(--dark-green);
+  border-radius: 10px;
+  text-align: center;
+}
+
+th {
+  color: var(--light-green);
+}
+
+.border_b {
+  border-bottom: 1px solid var(--dark-green);
+}
+
+.border_t {
+  border-top: 1px solid var(--dark-green);
+  cursor: pointer;
+}
+
+.invisible {
+  display: none;
+}
+
+.title {
+  padding: 2rem;
+}
+
+.link {
+  align-self: flex-start;
+  color: var(--dark-green);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--light-green);
+}
+
+.category {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: var(--light-green);
+  padding: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.category:hover {
+  color: var(--dark-green);
+  background-color: var(--dark-gray);
+}
