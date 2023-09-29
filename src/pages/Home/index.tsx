@@ -1,6 +1,5 @@
 /* eslint-disable react/jsx-max-depth */
 import { useRef, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import Typed from 'typed.js';
 import { FaLinkedinIn, FaInstagram, FaGithub } from 'react-icons/fa';
 
