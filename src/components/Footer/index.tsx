@@ -19,8 +19,6 @@ export default function Footer() {
         &copy; 2023
         {' '}
         <strong>Guilherme Fernandes</strong>
-        {' '}
-        Dev
       </p>
     </FooterStyle>
   );

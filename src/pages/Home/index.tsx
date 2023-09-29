@@ -6,6 +6,7 @@ import { FaLinkedinIn, FaInstagram, FaGithub } from 'react-icons/fa';
 
 import cartoonDev from '../../image/cartoon-dev.svg';
 import styles from './Home.module.css';
+import { Aside, ALink, Container, H2 } from './styled';
 
 function Home() {
   const el = useRef(null);
@@ -33,7 +34,7 @@ function Home() {
           <article>
             <h3>&lt;Hello World&gt;</h3>
             <h1>GUILHERME FERNANDES</h1>
-            <h2>SOFTWARE ENGINEER FULLSTACK JR.</h2>
+            <h2>SOFTWARE ENGINEER FULLSTACK</h2>
             <h2>
               &lt;&nbsp;
               <span className={ styles.office } ref={ el } />
@@ -41,11 +42,6 @@ function Home() {
             </h2>
           </article>
           <div className={ styles['btn-container'] }>
-            <Link className={ styles['btn-exercises'] } to="/projects">
-              <button type="button" className={ styles['home-button'] }>
-                MEUS PROJETOS
-              </button>
-            </Link>
             <a
               className={ styles['btn-exercises'] }
               href="https://drive.google.com/file/d/1O8Qdp2g71W0xb4SKEHRav1hDSbQtd-mT/view?usp=share_link"
@@ -66,18 +62,20 @@ function Home() {
           />
         </section>
       </div>
-      <aside className={ styles['icon-container'] }>
-        <p>SIGA-ME</p>
-        <a href="https://www.linkedin.com/in/guifernandesdev/" target="_blank" className={ styles['icon-link'] } rel="noopener noreferrer">
-          <FaLinkedinIn className={ styles.icon } />
-        </a>
-        <a href="https://github.com/GuiiFernandes" className={ styles['icon-link'] } target="_blank" rel="noopener noreferrer">
-          <FaGithub className={ styles.icon } />
-        </a>
-        <a href="https://www.instagram.com/guifernandesjj/" className={ styles['icon-link'] } target="_blank" rel="noopener noreferrer">
-          <FaInstagram className={ styles.icon } />
-        </a>
-      </aside>
+      <Aside>
+        <H2>SIGA-ME</H2>
+        <Container>
+          <ALink href="https://www.linkedin.com/in/guifernandesdev/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedinIn />
+          </ALink>
+          <ALink href="https://github.com/GuiiFernandes" target="_blank" rel="noopener noreferrer">
+            <FaGithub />
+          </ALink>
+          <ALink href="https://www.instagram.com/guifernandesjj/" target="_blank" rel="noopener noreferrer">
+            <FaInstagram />
+          </ALink>
+        </Container>
+      </Aside>
     </main>
   );
 }
