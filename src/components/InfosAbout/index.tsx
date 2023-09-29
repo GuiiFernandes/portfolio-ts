@@ -45,7 +45,7 @@ export default function InfosAbout() {
         <span className={ styles.green1 }>=</span>
         {' '}
         [
-        <span className={ styles.green2 }>&#39;Desemnvolvedor Web Jr.&#39;</span>
+        <span className={ styles.green2 }>&#39;Desenvolvedor Web&#39;</span>
         ,
         {' '}
         <span className={ styles.green2 }>

@@ -3,6 +3,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import styled from 'styled-components';
 import { MdOutlineCloudDone, MdOutlineCloudOff } from 'react-icons/md';
+import { FaGithub } from 'react-icons/fa';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -53,6 +54,8 @@ const TagsContainer = styled.div`
   bottom: 0;
   left: 0;
   width: 100%;
+  max-width: 430px;
+  overflow-x: scroll;
   display: flex;
   z-index: 2;
 `;
@@ -90,6 +93,27 @@ const DescriptionProj = styled.div`
   ${ProjectContainer}:hover & {
     height: 100%;
   }
+`;
+
+const GitHub = styled.a`
+  position: absolute;
+  bottom: -10px;
+  right: 5px;
+  margin: 1rem;
+  font-size: 4rem;
+  color: var(--white);
+  z-index: 2;
+  &:hover {
+    color: var(--light-green);
+    filter: drop-shadow(0px 0px 20px var(--dark-green));
+  }
+`;
+
+const Gif = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
 `;
 
 export default function App() {
@@ -133,13 +157,16 @@ export default function App() {
                   { status }
                 </StatusProject>
               </div>
-              <img src={ project.gif } alt={ project.title } />
+              <Gif src={ project.gif } alt={ project.title } />
               <DescriptionProj>{ project.description }</DescriptionProj>
               <TagsContainer>
                 { project.tags.split(',').map((tag) => (
                   <TagProject key={ tag }>{ tag }</TagProject>
                 )) }
               </TagsContainer>
+              <GitHub href="https://github.com/GuiiFernandes" target="_blank" rel="noopener noreferrer">
+                <FaGithub />
+              </GitHub>
             </ProjectContainer>
           </SwiperSlide>
         );
