@@ -2,7 +2,8 @@
 
 <details>
    <summary><strong>Descrição :open_file_folder:</strong></summary>
-   Essa é uma aplicação criada para mostrar e arquivar a minha carreira como programador, desde os meus primeiros passos, até os projetos mais elaborados e profissionais.
+   
+   ###Essa é uma aplicação criada para mostrar e arquivar a minha carreira como programador, desde os meus primeiros passos, até os projetos mais elaborados e profissionais.
 
    Essa aplicação contém:
    - `Meu currículo` (Um botão que te leva a um arquivo em PDF com minha caminhada profissional.)
@@ -14,6 +15,7 @@
 
 <details>
    <summary><strong>Principais ferramentas usadas 🛠</strong></summary>
+   
    - `TypeScript` (Linguagem principal, baseada no JavaScript tipado)
    - `React` (Maior biblioteca JavaScript para desenvolvimento FrontEnd do mundo)
    - `ReactRouter V6` (Rotas para React)
