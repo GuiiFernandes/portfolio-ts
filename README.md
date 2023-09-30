@@ -3,6 +3,7 @@
 <details>
    <summary><strong>Descrição :open_file_folder:</strong></summary>
    
+   ### Mostrar meu trabalho
    Essa é uma aplicação criada para mostrar e arquivar a minha carreira como programador, desde os meus primeiros passos, até os projetos mais elaborados e profissionais.
 
    Essa aplicação contém:
@@ -15,6 +16,9 @@
 
 <details>
    <summary><strong>Principais ferramentas usadas 🛠</strong></summary>
+
+   ### Ambiente organizado, códigos bem estruturados e de fácil leitura, além de produzição agil.
+   No desenvolvimento web é importante termos tudo isso no nosso trabalho e a melhor forma de conseguir é através de ferramentas e bibliotecas de terceiros que tornam nossa vida como programador mais agil e nos possibilita criar aplicações mais complexas e iterativas.
    
    - `TypeScript` (Linguagem principal, baseada no JavaScript tipado)
    - `React` (Maior biblioteca JavaScript para desenvolvimento FrontEnd do mundo)
@@ -29,6 +33,6 @@
    - `ESLint` (Cria um padrão para a escrita de códigos)
 </details>
 
-##Para ver a aplicação rodando [clique aqui](https://guiifernandes.github.io/).
+## Para ver a aplicação rodando [clique aqui](https://guiifernandes.github.io/).
 
 Para mais informações entre em contato pelo e-mail guifjj92@gmail.com ou (35)98886-6349.
