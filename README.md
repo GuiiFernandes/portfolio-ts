@@ -20,7 +20,8 @@
    ### Ambiente organizado, códigos bem estruturados e de fácil leitura, além de produzição agil.
    No desenvolvimento web é importante termos tudo isso no nosso trabalho e a melhor forma de conseguir é através de ferramentas e bibliotecas de terceiros que tornam nossa vida como programador mais agil e nos possibilita criar aplicações mais complexas e iterativas.
    
-   - `TypeScript` (Linguagem principal, baseada no JavaScript tipado)
+   - `JavaScript` (Linguagem principal)
+   - `CSS` (Liguagem de estilização web)
    - `React` (Maior biblioteca JavaScript para desenvolvimento FrontEnd do mundo)
    - `ReactRouter V6` (Rotas para React)
    - `Swiper` (Biblioteca de Slides)
