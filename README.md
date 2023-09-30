@@ -35,4 +35,4 @@
 
 <strong>Para ver a aplicação rodando [clique aqui](https://guiifernandes.github.io/).</strong>
 
-Para mais informações entre em contato pelo e-mail guifjj92@gmail.com ou (35)98886-6349.
+Para mais informações entre em contato pelo e-mail guifjj92@gmail.com ou [WhatsApp](https://wa.me/553588866349).
